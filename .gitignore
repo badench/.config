@@ -3,7 +3,7 @@ autostart/*
 autostart-scripts/*
 baloofileinformationrc
 baloofilerc
-base16-shell/*
+base16*
 bluedevilglobalrc
 coc/*
 dconf/*
