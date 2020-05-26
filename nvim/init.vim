@@ -8,6 +8,7 @@ set shell=/bin/bash
 " =============================================================================
 set rtp+=~/dev/other/base16-vim
 call plug#begin()
+
 " Color
 Plug 'chriskempson/base16-vim'
 
