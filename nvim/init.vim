@@ -73,7 +73,7 @@ set updatetime=300
 " Show file stats
 set laststatus=2
 set statusline=%f   " Path to file
-set statusline+=%=  " swithc to right side
+set statusline+=%=  " switch to right side
 set statusline+=%l  " Current line
 set statusline+=/   " separator
 set statusline+=%L  " total lines
@@ -108,6 +108,12 @@ exec 'nnoremap <Leader>sr :so ' . g:session_dir . '/*.vim<C-D><BS><BS><BS><BS><B
 " Ctrl+h to stop searching
 vnoremap <C-h> :nohlsearch<cr>
 nnoremap <C-h> :nohlsearch<cr>
+
+" map <Leader>te to new tab. silent so dont show in the cmd input 
+nnoremap <silent> <Leader>te :Te<CR>
+
+"TODO easier tab page navigation. Works in Normal, Visual, Select, Operator-pending
+
 
 " jump to start and end of line using home row keys
 map H ^
