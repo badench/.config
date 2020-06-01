@@ -4,4 +4,4 @@ I use base 16 colors. In order to set this up follow the instructions at [base16
 
 ## COC
 I use [COC](https://github.com/neoclide/coc.nvim) for language completion for the following languages
-- Rust I use [coc-rls](https://github.com/neoclide/coc-rls/). Along with [rust-lang/rust.vim](https://github.com/rust-lang/rust.vim) for styling and syntax highlighting.
+- Rust I use [coc-rls](https://github.com/neoclide/coc-rls/) for completion. Along with [rust-lang/rust.vim](https://github.com/rust-lang/rust.vim) for styling and syntax highlighting.
